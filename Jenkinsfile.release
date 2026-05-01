@@ -10,7 +10,7 @@ library identifier: "releasePipeline@master",
 
 releasePipeline(
     project: "ds-parent",
-    buildToTrigger: "ds-license",
+    buildToTrigger: "ds-shared",
     // List only the versions this specific repo needs
     extraParameters: []
 )
